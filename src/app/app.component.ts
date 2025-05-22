@@ -5,12 +5,12 @@ import {
   NgDocSidebarComponent,
 } from '@ng-doc/app';
 import { Component, HostBinding, inject } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet,
+    RouterModule,
     NgDocRootComponent,
     NgDocNavbarComponent,
     NgDocSidebarComponent,

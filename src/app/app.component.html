@@ -1,7 +1,9 @@
 <ng-doc-root [sidebar]="!isLandingPage">
-	<ng-doc-navbar  [hamburger]="!isLandingPage">
-			<h3 style="margin: 0" ngDocNavbarLeft>TwNG Elements UI</h3>
-	</ng-doc-navbar>
-	<ng-doc-sidebar></ng-doc-sidebar>
-<router-outlet></router-outlet>
+  <ng-doc-navbar [hamburger]="!isLandingPage">
+     <a class="brand" [routerLink]="'/'" ngDocNavbarLeft>
+      <h3>Tw NgElements UI</h3>
+    </a>
+  </ng-doc-navbar>
+  <ng-doc-sidebar></ng-doc-sidebar>
+  <router-outlet></router-outlet>
 </ng-doc-root>
