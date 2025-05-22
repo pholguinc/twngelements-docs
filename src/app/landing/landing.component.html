@@ -1,0 +1,46 @@
+<section class="greeting" id="greeting">
+  <!-- <ng-doc-background style="opacity: 0.4"></ng-doc-background> -->
+  <div class="section-container">
+    <div class="container row space-between">
+      <div class="greeting-content">
+        <h1>TwNG Elements UI</h1>
+        <p ng-doc-text>Create user-friendly documentation for your projects with ease!</p>
+        <div class="greeting-buttons">
+          <a class="discord-button">
+            <span>
+              Discord
+
+            </span>
+          </a>
+          <a class="gradient-button" [routerLink]="'/introduction'">
+            <span>
+              ¿Cómo empezar?
+
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <figure>
+        <img src="/logo-light.webp" alt="" width="500">
+      </figure>
+    </div>
+  </div>
+  <div class="section-container">
+    <section class="benefits-section">
+  <h2 id="beneficios" class="section-title">Beneficios</h2>
+
+  <div class="card-grid">
+    <article class="card" *ngFor="let benefit of benefits">
+      <div class="title">
+        <!-- <mat-icon [svgIcon]="benefit.icon"></mat-icon> -->
+        <span>{{ benefit.title }}</span>
+      </div>
+      <div class="body">
+        <p>{{ benefit.description }}</p>
+      </div>
+    </article>
+  </div>
+</section>
+  </div>
+</section>
