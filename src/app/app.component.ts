@@ -16,7 +16,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
     NgDocSidebarComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'twngelements-docs';

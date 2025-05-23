@@ -221,7 +221,7 @@ figure {
     cursor: pointer;
 
     .card {
-      background: hsl(224, 10%, 10%);
+      //background: hsl(224, 10%, 10%);
       border: 2px solid hsl(224, 10%, 23%);
       border-radius: 8px;
       padding: 1.5rem;
@@ -241,7 +241,7 @@ figure {
         gap: 0.5rem;
         font-weight: 600;
         margin-bottom: 1rem;
-        color: #fff;
+        //color: #fff;
 
         mat-icon {
           color: #3f51b5;

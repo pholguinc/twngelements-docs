@@ -1,3 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
 @import '@ng-doc/app/styles/themes/dark.css';
 
+
+@import 'twng-elements-ui/styles/root.css';
